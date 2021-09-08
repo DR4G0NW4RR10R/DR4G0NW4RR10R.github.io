@@ -1,0 +1,13 @@
+Changes:
+scripts/events.js line 233 --> changed cost of eating meat from 1 meat to 0
+scripts/events.js line 253 --> changed cost of healing from 1 medicine to 0
+scripts/events.js lines 407, 410, and 413 --> multiplied damage multiplier by 10 for unarmed attacks with and without perks
+scripts/events.js line 416 --> multiplied damage multiplier by 10 for melee attacks with barbarian perk
+scripts/Button.js line 102 --> changed cooldown multiplier from 1/2 to 1/20; makes button cool-downs 20x as fast instad of 2x as fast in hyper mode.
+scripts/events/encounters.js --> changes the loot tables to guarantee a drop of each kind for all enemies, also made enemies drop 10x as much stuff
+scripts/events/global.js line 54ish --> added a new line after line 54, forgiving the thieves now also returns all the stolen materials
+scripts/events/outside.js --> 10x rewards from events, huts cannot be destroyed, villagers cannot be killed, HOWEVER choosing to ignore sickness or a plague will result in 10x as much death. All event texts changed a little bit.
+scripts/evets.rooms.js --> 10x rewards from all events, buying anything is free, changes some text, shady builder no longer steals wood. also, no resources can be lost from the scratching noises.
+scripts/events/setpieces.js --> 10x guaranteed loot from any source
+scripts/world.js --> no attacks use ammunition, punching does 100 million damage. Other weapons remain unchanged
+scripts/outside.js --> Gathering wood is now 10x as efficient, all workers except Builder work 10x as fast and always produce 1 resource, and use no more than one resource of each type. Huts now hold 40 people each, and the cooldown for gathering wood and checking traps went from 60 and 90 seconds respectively to 10 for both.
