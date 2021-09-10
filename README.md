@@ -7,4 +7,8 @@ In order to play games on my website, please follow these steps:
 
 Also, please don't mess around in the other folders, it's considered rude. And it messes things up.
 
+
+9/10/21 Update: man it's been a while since I visited this project. Well, now it's on GitHub so I guess do whatever you want....
+
+
 Developer: Simón Sánchez-Soto
